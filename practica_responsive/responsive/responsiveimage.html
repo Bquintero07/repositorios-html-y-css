@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="imageresponsive.css">
+    <title>Imágenes Responsivas</title>
+  </head>
+  <body>
+    <div class="image-container">
+      <h2>Método 1: max-width: 100%</h2>
+      <img
+        src="https://cdn.wallpapersafari.com/99/68/iL8UrO.jpg"
+        alt="Imagen responsive"
+        class="responsive-img"
+      />
+
+      <h2>Método 2: object-fit: cover</h2>
+      <img
+        src="https://cdn.wallpapersafari.com/99/68/iL8UrO.jpg"
+        alt="Imagen con cover"
+        class="cover-img"
+      />
+
+      <h2>Método 3: Picture Element</h2>
+      <picture class="picture-responsive">
+        <source
+          media="(min-width: 1024px)"
+          srcset="https://cdn.wallpapersafari.com/99/68/iL8UrO.jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="https://cdn.wallpapersafari.com/33/39/CBotdO.jpg"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVApZXmfuURi3kC2BD0bRVwXwc0F_4ju3_w&s"
+          alt="Imagen adaptativa"
+        />
+      </picture>
+    </div>
+  </body>
+</html>

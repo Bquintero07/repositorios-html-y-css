@@ -1,0 +1,35 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        .image-container {
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    
+        /* Método 1: max-width */
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+    
+        /* Método 2: object-fit */
+        .cover-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    
+        /* Método 3: picture element con diferentes imágenes */
+        .picture-responsive img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
