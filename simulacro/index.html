@@ -10,7 +10,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
+    <!-- /* DESKTOP NAV */ -->
       <header class="hero-section">
         <div class="hero-background">
           <div class="hero-container">
@@ -41,47 +41,107 @@
           <div class="h1__container">
             <h1 class="title_h1">A modern publishing plataform</h1>
             <p class="p__h1">Grow your audience and build your online brand</p>
-            <div>
+            <div class="div_buttons_header">
               <button class="nav__button2 button1__h1">Start for Free</button>
               <button class="nav__button1 button1__h1">Learn More</button>
             </div>
           </div>
         </div>
       </header>
+
+      <!-- /* MOBILE NAV */ -->
+
+      <!-- /* MAIN */ -->
       <main>
-        <section class="section1">
-          <div class="div_title_section1">
-            <h2>Desingned for the future</h2>
-          </div>
-          <div class="div__section1">
-            <div class="div_articles">
-              <p class="span__section1 first__title">
-                <h3 class="h3_section1">
-                  Introducing an extensible editor
-                </h3>
-                Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. 
-                Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.
-              </p>
-              <p class="span__section1">
-                <h3 class="h3_section1">
-                  Robust content management
-                </h3>
-                Flexible content management enables users to easily move through posts. 
-                Increase the usability of your blog by adding customized categories, sections, format, or flow. 
-                With this functionality, you’re in full control.
-              </p>
+        <section>
+          <div class="seccion1_title1 title">Designed for the future</div>
+          <article class="article_seccion1 article1">
+            <div class="texts-seccion1 text1">
+              <h3 class="text_title title">Introducing an extensible editor</h3>
+              <div class="text1 text">
+                Blogr features an exceedingly intuitive interface which lets you focus on one thing:
+                creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such
+                as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality
+                or change the looks of a blog.
+              </div>
+              <h3 class="text_title title">Robust content management</h3>
+              <div class="text1 text">
+                Flexible content management enables users to easily move through posts. Increase the
+                usability of your blog by adding customized categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </div>
             </div>
-            <div class="div__image">
-              <img src="./Utils/illustration-editor-desktop.svg" alt="illustration-desktop">
+            <div class="texts-image">
+              <img class="texts__image1" src="./Utils/illustration-editor-desktop.svg" alt="desktop_image">
+            </div>
+          </article>
+        </section>
+
+        <section class="section-state">
+          <div class="div-state-image">
+            <img class="state-image" src="./Utils/illustration-phones.svg" alt="phones-ilustration">
+          </div>
+          <div class="section-state-space">
+            <div class="state-info">
+              <h3 class="state-info-title">State of the Art Infrastructure</h3>
+            <div class="state-info-text">
+              With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+              This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+            </div>
             </div>
           </div>
         </section>
-        <section class="section2">
 
+        <section class="article_seccion1 article2">
+          <div class="div-state-image">
+            <img class="image__section3" src="./Utils/illustration-laptop-desktop.svg" alt="laptop-ilustration">
+          </div>
+          <div class="texts-seccion1 text2">
+            <h3 class="text_title title">Free, open, simple</h3>
+            <div class="text1 text">
+              Blogr is a free and open source application backed by a large community of helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+            </div>
+            <h3 class="text_title title">Powerful tooling</h3>
+            <div class="text1 text">
+              Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+              breeze, but capable of producing even the most complicated sites.
+            </div>
+          </div>
         </section>
       </main>
-      <footer></footer>
-    </div>
+      <!-- /* FOOTER */ -->
+      <footer class="footer-secction">
+        <div>
+          <img class="footer-image" src="./Utils/logo.svg" alt="">
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li class="footer-title">Product</li>
+            <li class="footer-text">Overview</li>
+            <li class="footer-text">Pricing</li>
+            <li class="footer-text">Marketplace</li>
+            <li class="footer-text">Features</li>
+            <li class="footer-text">Integrations</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li class="footer-title">Company</li>
+            <li class="footer-text">Team</li>
+            <li class="footer-text">Blog</li>
+            <li class="footer-text">Careers</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="footer-list">
+            <li class="footer-title">Connect</li>
+            <li class="footer-text">Contact</li>
+            <li class="footer-text">Newsletter</li>
+            <li class="footer-text">LinkedIn</li>
+          </ul>
+        </div>
+      </footer>
   </body>
 </html>
